@@ -9,7 +9,7 @@ import react from "@astrojs/react";
 
 import cloudflare from "@astrojs/cloudflare";
 
-// https://astro.build/config
+// https://astro.build/config 
 export default defineConfig({
   site: 'https://ricardoperalta.github.io',
   integrations: [tailwind(), mdx(), astroIcon({
