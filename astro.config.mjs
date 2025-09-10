@@ -11,6 +11,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
+  server: https://ricardoperalta.github.io,
   integrations: [tailwind(), mdx(), astroIcon({
     include: {
       mdi: ["*"],
