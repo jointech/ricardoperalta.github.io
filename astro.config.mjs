@@ -13,7 +13,7 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
   //site: 'https://ricardoperalta.github.io',
   integrations: [tailwind(), mdx(), astroIcon({
-    include: {
+    include: { 
       mdi: ["*"],
       ri: ['*'],
       'simple-icons': ['*'],
